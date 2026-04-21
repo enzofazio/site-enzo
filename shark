@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SharkStat UI</title>
+</head>
+<body class="bg-black text-white font-sans">
+    <div class="p-6 max-w-md mx-auto">
+        <header class="flex justify-between items-center mb-10">
+            <h1 class="text-xl font-black italic">SHARK<span class="text-orange-500">STAT</span></h1>
+            <div class="w-8 h-8 bg-zinc-800 rounded-full"></div>
+        </header>
+        
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold">Dashboard</h2>
+            <p class="text-zinc-500">Stats de Futevôlei</p>
+        </div>
+
+        <div class="grid gap-4">
+            <div class="bg-zinc-900 p-6 rounded-2xl border border-zinc-800">
+                <p class="text-zinc-400 text-sm">Shark Attacks</p>
+                <p class="text-3xl font-bold text-orange-500">128</p>
+            </div>
+            <div class="bg-zinc-900 p-6 rounded-2xl border border-zinc-800">
+                <p class="text-zinc-400 text-sm">Vitórias</p>
+                <p class="text-3xl font-bold text-white">24</p>
+            </div>
+        </div>
+
+        <button class="w-full mt-8 bg-white text-black py-4 rounded-2xl font-bold">Novo Jogo</button>
+    </div>
+</body>
+</html>
